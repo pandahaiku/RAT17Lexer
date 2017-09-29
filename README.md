@@ -19,19 +19,17 @@ How to run the program:
 
 
 
-
-
                                                                  RAT17F
 1) Lexical Conventions:
 The lexical units of a program are identifiers, keywords, integers, reals, operators and other 
 separators. Blanks, tabs and newlines  (collectively, "white space") as described below
 are ignored except as they serve to separate tokens.
 Some white space is required to separate otherwise adjacent identifiers, keywords, reals and integers.
-<Identifier> is a sequence of letters and   “#”. 
+<Identifier> is a sequence of letters and   "#". 
 The first character must be a letter and two consecutive #s are not allowed.
 Upper and lower cases are same.
 <Integer>  is an unsigned decimal integer i.e., a sequence of decimal digits.
-<floating> is integer followed by “.”and integer, e.g., 123.00
+<floating> is integer followed by "."and integer, e.g., 123.00
 Some identifiers are reserved for use as keywords, and may not be used otherwise:
        e.g.,  int, if, else, fi,  while, return, read, write  etc
 
@@ -74,15 +72,15 @@ The following BNF  describes the  Rat17F.
 
 
 3) Some Semantics
--Rat17F is a conventional imperative programming language. A Rat17F program consists of a sequence of functions followed  by the "main body"  where the program executes. 
--All variables and functions must be declared before use.
--Function arguments are passed by value. 
--There is an implied expressionless return at the end of all functions; the value returned by  expressionless return statement is undefined. 
--Arithmetic expressions have their conventional meanings. 
--Integer division ignores any remainder. 
--Type casting is not allowed (e.g., assigning an integer to a real variable)
--No arithmetic operations are allowed with booleans (e.g., true + false)
--Others as we will define during the semester 
+?	Rat17F is a conventional imperative programming language. A Rat17F program consists of a sequence of functions followed  by the "main body"  where the program executes. 
+?	All variables and functions must be declared before use.
+?	Function arguments are passed by value. 
+?	There is an implied expressionless return at the end of all functions; the value returned by  expressionless return statement is undefined. 
+?	Arithmetic expressions have their conventional meanings. 
+?	Integer division ignores any remainder. 
+?	Type casting is not allowed (e.g., assigning an integer to a real variable)
+?	No arithmetic operations are allowed with booleans (e.g., true + false)
+?	Others as we will define during the semester 
 
 
 4)  A sample Rat17F Program 
